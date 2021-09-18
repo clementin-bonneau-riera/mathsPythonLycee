@@ -11,3 +11,4 @@ while times_exec <= repeat:
     start_number = pow(2, times_exec)
     print("2^", times_exec, ": ", start_number)
     times_exec += 1
+    
