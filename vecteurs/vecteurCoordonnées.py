@@ -1,5 +1,3 @@
-print("Hello World")
-
 x_a = int(input("Coordonnées x de A: "))
 y_a = int(input("Coordonnées y de A: "))
 x_b = int(input("Coordonnées x de B: "))
