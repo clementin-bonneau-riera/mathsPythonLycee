@@ -7,7 +7,7 @@ a = input("longueur du côté A: ")
 b = input("Longueur du côté B: ")
 a_square = pow(int(a), 2)  # mise au carré de a
 b_square = pow(int(b), 2)  # mise au carré de b
-hyp = math.sqrt(a_square + b_square)  # carré de l'hypoténuse = a^carré plus b^carré
+hyp = int(math.sqrt(a_square + b_square))  # carré de l'hypoténuse = a^carré plus b^carré
 
 print("La longueur de l'hypoténuse est de " + str(hyp) + " unités.")
 
