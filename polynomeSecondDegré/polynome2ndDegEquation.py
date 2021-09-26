@@ -14,8 +14,8 @@ def polynome():
             print("S={", x0, "}")
         else:
             if delta > 0:
-                x1 = (-b + math.sqrt(delta)) / 2 * a
-                x2 = (-b - math.sqrt(delta)) / 2 * a
+                x1 = ((-b) + math.sqrt(delta)) / (2 * a)
+                x2 = ((-b) - math.sqrt(delta)) / (2 * a)
                 print("S={", x2, ";", x1, "}")
 
 
