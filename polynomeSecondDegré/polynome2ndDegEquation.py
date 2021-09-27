@@ -10,7 +10,7 @@ def polynome():
         print("S= ∅")
     else:
         if delta == 0:
-            x0 = -b / (2 * a)
+            x0 = (-b) / (2 * a)
             print("S={", x0, "}")
         else:
             if delta > 0:
